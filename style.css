@@ -1,0 +1,959 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer {
+    border: 2px solid black;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundContainer {
+    border: 2px solid red;
+    background-image: url(images/background_image.jpg);
+    height: 190vh;
+    width: 100vw;
+    position: relative;
+    filter: blur(12px);
+
+}
+
+.pinkoverlay {
+    background-color: rgba(7, 4, 5, 0.79);
+    height: 100%;
+    width: 100%;
+
+}
+
+.contentContainer {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    padding: 1.7rem 2.5rem;
+}
+
+nav {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftnavSection {
+    /* border: 2px solid yellow; */
+    width: 50%;
+
+}
+
+.leftnavSection svg {
+    width: 10rem;
+    fill: rgb(255, 3, 3);
+}
+
+.rightnavSection {
+    width: 50%;
+}
+
+.navbuttonContainer {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+    height: 60%;
+}
+
+.langbuttonConatiner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 7rem;
+}
+
+.langbutton {
+    display: flex;
+    padding: .5rem .8rem;
+    border-radius: 60px;
+    outline: none;
+    border: 1px solid rgb(187, 175, 175);
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+.langbutton:hover {
+    cursor: pointer;
+    transform: scale(1.2) translateY(-5px);
+}
+
+.langbuttonConatiner p {
+    margin-left: 5px;
+}
+
+.signinbutton {
+    padding: .5rem .8rem;
+    border-radius: 60px;
+    outline: none;
+    border: 1px solid white;
+    background: white;
+    color: black;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+.signinbutton:hover {
+    cursor: pointer;
+    transform: scale(1.2) translateY(-5px);
+}
+
+.BannerSection {
+    margin-top: .5rem;
+    border-left: 1px solid white;
+    height: 100vh;
+    background-image: url(images/background_image.jpg);
+
+    object-fit: cover;
+    border-radius: 25px;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.532), black);
+
+}
+
+.bannerContainer {
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.bannerContainer h2 {
+    /* border: 2px solid green; */
+    width: 55%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.bannerContainer h4 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.bannerContainer p {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+
+}
+
+.inputContainer {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-top: 1rem;
+}
+
+.emailbox {
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 45px;
+    width: 60%;
+    outline: none;
+    background: rgba(128, 128, 128, 0.785);
+    transition: all .1s ease;
+}
+
+.emailbox:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.emailbox::placeholder {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.getstartbutton {
+    padding: 1rem 2rem;
+    border-radius: 45px;
+    width: 14rem;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    transition: .3s linear;
+}
+
+.getstartbutton:hover {
+    background-color: rgb(95, 3, 3);
+    cursor: pointer;
+}
+
+.trendingSection,
+.moreeasonSection,
+.faqSection {
+    color: white;
+
+}
+
+.trendingSection h2,
+.moreeasonSection h2,
+.faqSection h2 {
+    margin-left: 7.5rem;
+    margin-top: 2rem;
+    font-size: 2.8rem;
+}
+
+.trendingContainer,
+.reasonContainer,
+.faqContainer {
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-evenly;
+    align-content: center;
+    column-gap: 2rem;
+    gap: 20px;
+
+}
+
+.trendingContainer {
+    column-gap: 2rem;
+}
+
+.trendingCard {
+    width: 180px;
+    height: 50vh;
+    position: relative;
+    transition: .3s ease;
+}
+
+.trendingCard:hover {
+    cursor: pointer;
+    transform: scale(1.3) translateY(-5px);
+}
+
+
+.trendingImageContainer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.trendingImageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+
+}
+
+
+.tredingNumberConatiner {
+    position: absolute;
+    left: -20px;
+}
+
+.tredingNumberConatiner span {
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 4.6rem;
+
+}
+
+.reasoncard {
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: 40vh;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px;
+    padding: 1rem 1rem .5rem;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    transition: all .3s ease;
+}
+
+.reasonContainer :hover {
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+    ;
+}
+
+.reasoncard p {
+    font-size: .8rem;
+}
+
+.reasoncard h4 {
+    font-size: 1rem;
+}
+
+.lowerContent {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.lowerContent svg {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.faqCard {
+
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px;
+    padding: 1rem 1rem .5rem;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    transition: all .3s linear;
+}
+
+.faqCard:hover {
+    background-color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.faqQuestion {
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.faqQuestion h4 {
+    font-size: 1.3rem;
+
+}
+
+.faqQuestion span {
+    font-size: 1.8rem;
+}
+
+.getstartedSection {
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 2rem;
+
+}
+
+.getstartedSection p {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+
+}
+
+.inputConatiner {
+    /* border: 2px solid yellow; */
+    width: 45%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+}
+
+.footerSection {
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 29, 29);
+
+}
+
+.footerContainer {
+    width: 80%;
+    padding-left: 1rem;
+    /* border: 2px solid red; */
+}
+
+.first {
+    /* border: 2px solid yellow; */
+    color: white;
+
+}
+
+#first1 {
+    text-decoration: underline;
+}
+
+.grid_container {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid {
+    color: white;
+    margin: 10px;
+    /* margin-left: 0; */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last {
+    /* border: 2px solid blue; */
+    color: white;
+    margin: 2rem 0;
+}
+
+.netflix {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: white;
+    font-size: .8rem;
+
+}
+
+.netflix a {
+    color: rgb(60, 142, 237);
+    padding-left: 5px;
+}
+
+#sign:hover {
+    background-color: rgb(198, 21, 21);
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: rgb(198, 21, 21);
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+
+@media screen and (max-width : 1300px) {
+    .leftnavSection svg {
+        height: auto;
+        width: 8rem;
+    }
+
+    .navbuttonContainer {
+        height: auto;
+        width: auto;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BannerSection {
+        height: 40rem;
+        width: 100%;
+    }
+
+    .bannerContainer h2 {
+        font-size: 5rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer h4 {
+        font-size: 2rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer p {
+        font-size: 1.5rem;
+        margin: 1rem 2rem;
+    }
+
+    .backgroundContainer {
+        height: 75rem;
+        width: 100%;
+    }
+
+    .inputContainer {
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+        width: 25rem;
+    }
+
+    .trendingContainer {
+        height: auto;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    .trendingSection h2 {
+        margin-left: 4rem;
+    }
+
+    .trendingSection {
+        margin-top: 5rem;
+
+    }
+
+    .trendingImageContainer {
+        height: auto;
+        width: auto;
+
+    }
+
+    .moreeasonSection {
+
+        width: 100%;
+        margin-top: 5rem;
+
+    }
+
+    .tredingNumberConatiner span {
+        font-size: 4rem;
+    }
+
+    .moreeasonSection h2 {
+        margin-left: 5.6rem;
+    }
+
+    .lowerContent svg {
+        height: auto;
+        width: auto;
+    }
+
+
+    .reasoncard {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 20rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .reasoncard p {
+        font-size: .8rem;
+    }
+
+    .reasoncard h4 {
+        font-size: 1.2rem;
+    }
+
+    .lowerContent {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+    }
+
+
+
+
+    .trendingSection h2 {
+        font-size: 4rem;
+    }
+
+    .trendingContainer {
+        margin-top: 4rem;
+    }
+
+    .faqSection {
+        margin-top: 2rem;
+    }
+
+    .faqCard {
+        height: 5rem;
+    }
+}
+
+   
+
+/* media query for 1000px */
+
+@media screen and (max-width:1000px) {
+
+    .leftnavSection svg {
+        height: auto;
+        width: 10rem;
+    }
+
+    .navbuttonContainer {
+        height: auto;
+        width: auto;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BannerSection {
+        height: 50rem;
+        width: 100%;
+    }
+
+    .bannerContainer h2 {
+        font-size: 5rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer h4 {
+        font-size: 2rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer p {
+        font-size: 1.5rem;
+        margin: 1rem 2rem;
+    }
+
+    .backgroundContainer {
+        height: 75rem;
+        width: 100%;
+    }
+
+    .inputContainer {
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+        width: 25rem;
+    }
+
+    .trendingContainer {
+        height: auto;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    .trendingSection h2 {
+        margin-left: 4rem;
+    }
+
+    .trendingSection {
+        margin-top: 5rem;
+
+    }
+
+    .trendingImageContainer {
+        height: auto;
+        width: auto;
+
+    }
+
+    .moreeasonSection {
+
+        width: 100%;
+        margin-top: 12rem;
+
+    }
+
+    .tredingNumberConatiner span {
+        font-size: 4rem;
+    }
+
+    .moreeasonSection h2 {
+        margin-left: 5.6rem;
+    }
+
+    .lowerContent svg {
+        height: auto;
+        width: auto;
+    }
+
+
+    .reasoncard {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 20rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .reasoncard p {
+        font-size: .8rem;
+    }
+
+    .reasoncard h4 {
+        font-size: 1.2rem;
+    }
+
+    .lowerContent {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+    }
+
+
+
+
+    .trendingSection h2 {
+        font-size: 4rem;
+    }
+
+    .trendingContainer {
+        margin-top: 4rem;
+    }
+
+    .faqSection {
+        margin-top: 2rem;
+    }
+
+    .faqCard {
+        height: 5rem;
+    }
+}
+
+
+/* media query for 800px */
+
+@media screen and (max-width:800px) {
+    .backgroundContainer {
+        width: 100%;
+    }
+
+    .trendingContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tcard5,
+    .tcard6 {
+        display: none;
+    }
+
+    .reasonContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reasoncard {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 1rem;
+
+    }
+
+    .reasoncard p {
+        display: inline-flex;
+        font-size: 1.2rem;
+    }
+
+    .moreeasonSection {
+        margin-top: 15rem;
+    }
+
+
+
+    .faqSection h2 {
+        margin-left: 5.6rem;
+    }
+
+    .faqQuestion h4 {
+        font-size: 1rem;
+
+    }
+}
+
+/* media query for 500px */
+
+@media screen and (max-width : 500px) {
+
+    .backgroundContainer {
+        height: 62rem;
+    }
+
+    .BannerSection {
+        height: 35rem;
+        width: 100%;
+    }
+
+    .leftnavSection svg {
+        width: 7rem;
+    }
+
+    .bannerContainer h2 {
+        font-size: 2rem;
+
+    }
+
+    .bannerContainer h4 {
+        font-size: 1.5rem;
+
+    }
+
+    .bannerContainer p {
+        font-size: 1.3rem;
+
+    }
+
+    .inputContainer {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 8px;
+        width: 100%;
+    }
+
+    .trendingSection {
+        margin-top: 2rem;
+
+    }
+
+    .trendingContainer {
+        display: grid;
+        grid-template: auto/1fr 1fr 1fr;
+    }
+
+    .trendingSection h2 {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+
+    .trendingCard {
+        height: auto;
+        width: auto;
+    }
+
+    .tcard4 {
+        display: none;
+    }
+
+
+    .moreeasonSection {
+        height: 25rem;
+        margin-top: 5rem;
+    }
+
+    .moreeasonSection h2 {
+        margin-left: 2.6rem;
+        font-size: 2em;
+    }
+
+    .upperContent p {
+        font-size: .8rem;
+    }
+
+    .faqSection {
+        margin-top: 20rem;
+    }
+
+    .faqContainer {
+        height: 4.5rem;
+    }
+
+    .faqSection h2 {
+        margin-left: 2.6rem;
+        font-size: 2em;
+    }
+
+    .inputConatiner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        width: 100%;
+    }
+
+    .grid_container {
+        display: list-item;
+        margin-top: 25px;
+    }
+}
+
+/* media query for 400px */
+@media screen and (max-width : 400px) {
+    .leftnavSection svg {
+        width: 7rem;
+    }
+
+    .backgroundContainer {
+        height: 55rem;
+        width: 100%;
+    }
+
+    .BannerSection {
+        height: 33rem;
+    }
+
+    .bannerContainer h2 {
+        font-size: 1.5rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer h4 {
+        font-size: 1.3rem;
+
+    }
+
+    .bannerContainer p {
+        font-size: 1rem;
+
+    }
+
+    .trendingSection h2 {
+        font-size: 2rem;
+    }
+
+    .trendingContainer {
+        margin-top: 3rem;
+    }
+
+    .moreeasonSection {
+
+        margin-top: 5rem;
+    }
+
+    .faqSection {
+        margin-top: 25rem;
+    }
+}
