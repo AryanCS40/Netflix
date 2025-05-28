@@ -946,18 +946,18 @@ nav {
 }
 
 /* media query for 400px */
-@media screen and (max-width : 350px) , (min-height : 1000px){
+@media screen and (max-width : 380px) , (min-height : 1050px){
     .leftnavSection svg {
         width: 7rem;
     }
 
     .backgroundContainer {
-        height: 55rem;
+        height: 50rem;
         width: 100%;
     }
 
     .BannerSection {
-        height: 30rem;
+        height: 35rem;
         
     }
 
@@ -994,7 +994,7 @@ nav {
     }
 
     .faqSection {
-        margin-top: 20rem;
+        margin-top: 15rem;
     }
 } 
 
