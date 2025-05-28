@@ -962,8 +962,9 @@ nav {
         margin-top: 3rem;
     }
 .trendingImageContainer img{
-    height: auto;
-    width: auto;
+
+    height: 10vh;
+    width: 30vw;
 }
     .moreeasonSection {
         margin-top: 1rem;
