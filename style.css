@@ -946,7 +946,7 @@ nav {
 }
 
 /* media query for 400px */
-@media screen and (max-width : 350px) , (min-width : 250px){
+@media screen and (max-width : 350px) , (min-height : 1000px){
     .leftnavSection svg {
         width: 7rem;
     }
@@ -986,7 +986,7 @@ nav {
 
     .moreeasonSection {
 
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .moreeasonSection h2{
