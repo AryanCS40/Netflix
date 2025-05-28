@@ -930,7 +930,7 @@ nav {
     }
 
     .backgroundContainer {
-        height: 30rem;
+        height: 45rem;
         width: 100%;
     }
 
@@ -961,7 +961,10 @@ nav {
     .trendingContainer {
         margin-top: 2rem;
     }
-
+    .trendingCard{
+        width: 30vw;
+        height: auto;
+    }
     .faqSection {
         margin-top: 23rem;
     }
