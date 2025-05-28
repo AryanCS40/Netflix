@@ -970,7 +970,7 @@ nav {
     } */
     
    .moreeasonSection{
-    margin-top: auto;
+    margin-top: 20rem;
    } 
  .leftnavSection svg {
         width: 3rem;
@@ -1013,6 +1013,6 @@ nav {
         width: 20vw;
     }
     .faqSection {
-        margin-top: 25rem;
+        margin-top: 18rem;
     }   
 }
