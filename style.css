@@ -479,7 +479,7 @@ nav {
 }
 
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width : 1350px) {
     .leftnavSection svg {
         height: auto;
         width: 10rem;
