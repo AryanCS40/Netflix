@@ -962,14 +962,17 @@ nav {
         margin-top: 2rem;
     }
     .trendingCard{
-        width: 30%;
+        width: auto;
         height: auto;
     }
+    .tredingNumberConatiner span{
+        font-size: 2rem;
+    }
     .moreeasonSection{
-        margin-top: 10rem;
+        margin-top: 12rem;
     }
     .faqSection {
-        margin-top: 23rem;
+        margin-top: 20rem;
     }
 } 
 
