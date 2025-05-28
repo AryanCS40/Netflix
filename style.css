@@ -479,7 +479,7 @@ nav {
 }
 
 
-@media screen and (max-width : 1350px) {
+@media screen and (max-width : 1300px) {
     .leftnavSection svg {
         height: auto;
         width: 10rem;
@@ -961,18 +961,17 @@ nav {
     .trendingContainer {
         margin-top: 3rem;
     }
-
+.trendingImageContainer img{
+    height: auto;
+    width: auto;
+}
     .moreeasonSection {
-
         margin-top: 1.8rem;
     }
 
-    .moreeasonSection h2{
-        margin-top: 2rem;
-    }
-
+    
     .faqSection {
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
 } 
 
