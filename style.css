@@ -957,7 +957,7 @@ nav {
     }
 
     .BannerSection {
-        height: 45rem;
+        height: 35rem;
         
     }
 
@@ -986,11 +986,11 @@ nav {
 
     .moreeasonSection {
 
-        margin-top: 10vh;
+        margin-top: 5rem;
     }
 
     .faqSection {
-        margin-top: 18vh;
+        margin-top: 2rem;
     }
 } 
 
