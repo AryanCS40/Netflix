@@ -849,7 +849,7 @@ nav {
     }
 
     .BannerSection {
-        height: 40rem;
+        height: 35rem;
         width: 100%;
     }
 
@@ -946,7 +946,7 @@ nav {
 }
 
 /* media query for 400px */
-/* @media screen and (max-width : 400px) {
+@media screen and (max-width : 350px) {
     .leftnavSection svg {
         width: 7rem;
     }
@@ -957,7 +957,7 @@ nav {
     }
 
     .BannerSection {
-        height: 33rem;
+        height: 45rem;
         
     }
 
@@ -986,11 +986,11 @@ nav {
 
     .moreeasonSection {
 
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
     .faqSection {
-        margin-top: 25rem;
+        margin-top: 23rem;
     }
-} */
+} 
 
