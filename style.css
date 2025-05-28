@@ -616,7 +616,7 @@ nav {
 
 /* media query for 1000px */
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1080px) {
 
     .leftnavSection svg {
         height: auto;
@@ -753,12 +753,12 @@ nav {
 
 
 /* media query for min height 1000px */
-@media screen and (min-height : 1000px) {
+@media screen and (min-height : 2400px) {
     .trendingSection{
         margin-top: 2rem;
     }
     .moreeasonSection{
-        margin-top:3rem ;
+        margin-top:5rem ;
     }
     .faqSection{
         margin-top: 1rem;
@@ -768,9 +768,9 @@ nav {
     }
 }
 
-/* media query for 800px */
+/* media query for 750px */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px) {
     .backgroundContainer {
         width: 100%;
     }
@@ -821,9 +821,28 @@ nav {
     }
 }
 
+/* media query for min height 750px */
+@media screen and (min-height :1600px) {
+    .trendingSection{
+        margin-top: 2rem;
+    
+    }
+    .moreeasonSection{
+        margin-top: 5rem;
+
+    }
+    .faqSection{
+        margin-top: 1rem;
+
+    }
+    .footerSection{
+        margin-top: 1rem;
+    }
+}
+
 /* media query for 500px */
 
-@media screen and (max-width : 500px) {
+@media screen and (max-width : 550px) {
 
     .backgroundContainer {
         height: 62rem;
@@ -927,7 +946,7 @@ nav {
 }
 
 /* media query for 400px */
-@media screen and (max-width : 400px) {
+/* @media screen and (max-width : 400px) {
     .leftnavSection svg {
         width: 7rem;
     }
@@ -973,5 +992,5 @@ nav {
     .faqSection {
         margin-top: 25rem;
     }
-}
+} */
 
