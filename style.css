@@ -538,7 +538,7 @@ nav {
     }
 
     .trendingSection {
-        margin-top: 5rem;
+        margin-top: 8rem;
 
     }
 
@@ -551,7 +551,7 @@ nav {
     .moreeasonSection {
 
         width: 100%;
-        margin-top: 5rem;
+        margin-top: 8rem;
 
     }
 
@@ -751,6 +751,22 @@ nav {
     }
 }
 
+
+/* media query for min height 1000px */
+@media screen and (min-height : 1000px) {
+    .trendingSection{
+        margin-top: 2rem;
+    }
+    .moreeasonSection{
+        margin-top:3rem ;
+    }
+    .faqSection{
+        margin-top: 1rem;
+    }
+    .footerSection{
+        margin-top: 1rem;
+    }
+}
 
 /* media query for 800px */
 
@@ -959,60 +975,3 @@ nav {
     }
 }
 
-@media screen and (max-width:300px) {
-
-    /* .navContainer{
-        margin: auto;
-        position: absolute;
-        z-index: 1000;
-        top: 0;
-        width: 100%;
-    } */
-    
-   .moreeasonSection{
-    margin-top: 30rem;
-   } 
- .leftnavSection svg {
-        width: 3rem;
-    }
-
-    .backgroundContainer {
-        height: 55rem;
-        width: 100%;
-    }
-
-    .BannerSection{
-        height: 25rem;
-        width: 100vw;
-    }
-
-    .bannerContainer h2 {
-        font-size: 1rem;
-        margin: 1rem 1rem;
-    }
-
-    .bannerContainer h4 {
-        font-size: .8rem;
-
-    }
-
-    .bannerContainer p {
-        font-size: .5rem;
-
-    }
-
-    .trendingSection h2 {
-        font-size: 2rem;
-    }
-
-    .trendingContainer {
-        margin-top: 2.5em;
-    }
-    .trendingCard{
-        margin: 0;
-        width: 20vw;
-    }
-    .faqSection {
-        margin-top: 10rem;
-    }   
-}
