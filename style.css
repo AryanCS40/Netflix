@@ -237,6 +237,8 @@ nav {
     margin-left: 7.5rem;
     margin-top: 2rem;
     font-size: 2.8rem;
+    position: absolute;
+    z-index: 1000;
 }
 
 .trendingContainer,
@@ -946,7 +948,7 @@ nav {
 }
 
 /* media query for 400px */
-@media screen and (max-width : 380px) , (min-height : 1050px){
+@media screen and (max-width : 380px) , (max-height : 1550px){
     .leftnavSection svg {
         width: 7rem;
     }
@@ -957,7 +959,7 @@ nav {
     }
 
     .BannerSection {
-        height: 35rem;
+        height: 33rem;
         
     }
 
@@ -994,7 +996,7 @@ nav {
     }
 
     .faqSection {
-        margin-top: 15rem;
+        margin-top: 12rem;
     }
 } 
 
