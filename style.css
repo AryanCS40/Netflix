@@ -401,7 +401,7 @@ nav {
 }
 
 .footerSection {
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: 100%;
     width: 100%;
     background-color: black;
@@ -429,7 +429,7 @@ nav {
 }
 
 .grid_container {
-    margin-top: 3rem;
+    margin-top: .5rem;
     margin-bottom: 2rem;
     /* border: 2px solid green; */
     display: grid;
@@ -478,10 +478,10 @@ nav {
 }
 
 
-@media screen and (max-width : 1300px) {
+@media screen and (max-width : 1200px) {
     .leftnavSection svg {
         height: auto;
-        width: 8rem;
+        width: 10rem;
     }
 
     .navbuttonContainer {
@@ -496,12 +496,12 @@ nav {
     }
 
     .BannerSection {
-        height: 40rem;
+        height: 45rem;
         width: 100%;
     }
 
     .bannerContainer h2 {
-        font-size: 5rem;
+        font-size: 6rem;
         margin: 1rem 1rem;
     }
 
@@ -872,7 +872,7 @@ nav {
 
     .moreeasonSection {
         height: 25rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
     .moreeasonSection h2 {
@@ -923,6 +923,7 @@ nav {
 
     .BannerSection {
         height: 33rem;
+        
     }
 
     .bannerContainer h2 {
@@ -950,10 +951,68 @@ nav {
 
     .moreeasonSection {
 
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
     .faqSection {
         margin-top: 25rem;
     }
+}
+
+@media screen and (max-width:300px) {
+
+    /* .navContainer{
+        margin: auto;
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+    } */
+    
+   .moreeasonSection{
+    margin-top: auto;
+   } 
+ .leftnavSection svg {
+        width: 3rem;
+    }
+
+    .backgroundContainer {
+        height: 55rem;
+        width: 100%;
+    }
+
+    .BannerSection{
+        height: 25rem;
+        width: 100vw;
+    }
+
+    .bannerContainer h2 {
+        font-size: 1rem;
+        margin: 1rem 1rem;
+    }
+
+    .bannerContainer h4 {
+        font-size: .8rem;
+
+    }
+
+    .bannerContainer p {
+        font-size: .5rem;
+
+    }
+
+    .trendingSection h2 {
+        font-size: 2rem;
+    }
+
+    .trendingContainer {
+        margin-top: 2.5em;
+    }
+    .trendingCard{
+        margin: 0;
+        width: 20vw;
+    }
+    .faqSection {
+        margin-top: 25rem;
+    }   
 }
