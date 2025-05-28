@@ -963,16 +963,16 @@ nav {
     }
    .trendingImageContainer img{
     height: auto;
-    width: 10vw;
+    width: 20vw;
    }
     .tredingNumberConatiner span{
         font-size: 2rem;
     }
     .moreeasonSection{
-        margin-top: 12rem;
+        margin-top: 10rem;
     }
     .faqSection {
-        margin-top: 20rem;
+        margin-top: 23rem;
     }
 } 
 
