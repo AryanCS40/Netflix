@@ -923,8 +923,8 @@ nav {
     }
 }
 
-/* media query for 350px */
-@media screen and (max-width : 350px) {
+/* media query for 300px */
+@media screen and (max-width : 300px) {
     .leftnavSection svg {
         width: 7rem;
     }
@@ -966,12 +966,12 @@ nav {
     width: auto;
 }
     .moreeasonSection {
-        margin-top: 1.8rem;
+        margin-top: 1rem;
     }
 
     
     .faqSection {
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
 } 
 
