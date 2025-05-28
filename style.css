@@ -924,7 +924,7 @@ nav {
 }
 
 /* media query for 300px */
-@media screen and (max-width : 300px) , (min-height : 1050px){
+@media screen and (max-width : 300px) , (min-height : 1000px){
     .leftnavSection svg {
         width: 7rem;
     }
@@ -959,7 +959,7 @@ nav {
     }
 
     .trendingContainer {
-        margin-top: 2rem;
+        margin-top: 1.3rem;
     }
    .trendingImageContainer img{
     height: auto;
@@ -969,10 +969,10 @@ nav {
         font-size: 2rem;
     }
     .moreeasonSection{
-        margin-top: 12rem;
+        margin-top: 10rem;
     }
     .faqSection {
-        margin-top: 22rem;
+        margin-top: 23rem;
     }
 } 
 
