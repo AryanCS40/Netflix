@@ -986,7 +986,11 @@ nav {
 
     .moreeasonSection {
 
-        margin-top: 15rem;
+        margin-top: 12rem;
+    }
+
+    .moreeasonSection h2{
+        margin-top: 2rem;
     }
 
     .faqSection {
