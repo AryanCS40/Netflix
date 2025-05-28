@@ -961,10 +961,10 @@ nav {
     .trendingContainer {
         margin-top: 2rem;
     }
-    .trendingCard{
-        width: auto;
-        height: auto;
-    }
+   .trendingImageContainer img{
+    height: auto;
+    width: 10vw;
+   }
     .tredingNumberConatiner span{
         font-size: 2rem;
     }
