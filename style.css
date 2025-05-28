@@ -962,8 +962,11 @@ nav {
         margin-top: 2rem;
     }
     .trendingCard{
-        width: 30vw;
+        width: auto;
         height: auto;
+    }
+    .moreeasonSection{
+        margin-top: 10rem;
     }
     .faqSection {
         margin-top: 23rem;
