@@ -924,7 +924,7 @@ nav {
 }
 
 /* media query for 300px */
-@media screen and (max-width : 300px) , (min-height : 1050px){
+@media screen and (max-width : 300px) , (max-height : 1050px){
     .leftnavSection svg {
         width: 7rem;
     }
@@ -935,7 +935,7 @@ nav {
     }
 
     .BannerSection {
-        height: 35rem;
+        height: 33rem;
         
     }
 
@@ -959,16 +959,11 @@ nav {
     }
 
     .trendingContainer {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
-.trendingImageContainer img{
 
-    height: 10vh;
-    width: 30vw;
-    margin: 1rem 0px;
-}    
     .faqSection {
-        margin-top: 20rem;
+        margin-top: 23rem;
     }
 } 
 
