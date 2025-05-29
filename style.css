@@ -941,11 +941,6 @@ nav {
         font-size: 2rem;
     }
 
-    .trendingContainer {
-        margin-top: 1rem;
-        display: grid;
-        grid-template: auto/1fr 1fr;
-    }
     .tcard3 {
         display: none;
     }
