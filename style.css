@@ -760,7 +760,7 @@ nav {
 
 /* media query for 750px */
 
-@media screen and (max-width:750px) , (min-height : 2500px){
+@media screen and (max-width:750px) , (min-height : 1500px){
     .backgroundContainer {
         width: 100%;
     }
@@ -885,7 +885,7 @@ nav {
     }
 
     .faqSection {
-        margin-top: 18rem;
+        margin-top: 22rem;
     }
 
     .faqContainer {
