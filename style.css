@@ -816,7 +816,7 @@ nav {
 }
 
 /* media query for 650px */
-@media screen and (max-width : 650px) , (min-height : 2000px) {
+@media screen and (max-width : 650px) , (min-height : 1000px) {
     .backgroundContainer {
         height: 50rem;
     }
