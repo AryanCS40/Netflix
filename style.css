@@ -818,7 +818,7 @@ nav {
 /* media query for 650px */
 @media screen and (max-width : 650px) , (min-height : 2000px) {
     .backgroundContainer {
-        height: 62rem;
+        height: 50rem;
     }
     .BannerSection {
         height: 35rem;
@@ -846,12 +846,12 @@ nav {
 
     .trendingSection {
         margin-top: 2rem;
-
     }
 
     .trendingContainer {
         display: grid;
         grid-template: auto/1fr 1fr 1fr;
+        margin-top: 1rem;
     }
 
     .trendingSection h2 {
@@ -872,7 +872,7 @@ nav {
 
     .moreeasonSection {
         height: 25rem;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     .moreeasonSection h2 {
@@ -911,7 +911,7 @@ nav {
 }
 
 /* media query for 300px */
-@media screen and (max-width : 300px) , (min-height : 1000px){
+/* @media screen and (max-width : 300px) , (min-height : 1000px){
     .leftnavSection svg {
         width: 7rem;
     }
@@ -963,5 +963,5 @@ nav {
     .faqSection {
         margin-top: 23rem;
     }
-} 
+}  */
 
