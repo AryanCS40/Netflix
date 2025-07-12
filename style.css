@@ -275,20 +275,19 @@ nav {
 .trendingImageContainer {
     width: 100%;
     height: 100%;
-
+    position: relative;
 }
 
 .trendingImageContainer img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-
-
 }
 
 
 .tredingNumberConatiner {
     position: absolute;
+    z-index: 10;
     left: -20px;
 }
 
@@ -909,59 +908,4 @@ nav {
         margin-top: 25px;
     }
 }
-
-/* media query for 300px */
-/* @media screen and (max-width : 300px) , (min-height : 1000px){
-    .leftnavSection svg {
-        width: 7rem;
-    }
-
-    .backgroundContainer {
-        height: 45rem;
-        width: 100%;
-    }
-
-    .BannerSection {
-        height: 33rem;
-        
-    }
-
-    .bannerContainer h2 {
-        font-size: 1.5rem;
-        margin: 1rem 1rem;
-    }
-
-    .bannerContainer h4 {
-        font-size: 1.3rem;
-
-    }
-
-    .bannerContainer p {
-        font-size: 1rem;
-
-    }
-
-    .trendingSection h2 {
-        font-size: 2rem;
-    }
-
-    .tcard3 {
-        display: none;
-    }
-
-    
-   .trendingImageContainer img{
-    height: auto;
-    width: 25vw;
-   }
-    .tredingNumberConatiner span{
-        font-size: 2rem;
-    }
-    .moreeasonSection{
-        margin-top: 2rem;
-    }
-    .faqSection {
-        margin-top: 23rem;
-    }
-}  */
 
