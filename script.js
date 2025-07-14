@@ -1,14 +1,15 @@
 console.log("hello bhidu!")
-let icon = document.querySelectorAll(".icon");
+let play = document.getElementsByClassName("icon");
 function iconChange(){
-    if(icon.classList.contains("fa-plus"))
+    if(play.classList.contains("fa-plus"))
     {
-        icon.classList.remove("fa-plus")
-        icon.classList.add("fa-xmark")
+        play.classList.remove("fa-plus")
+        play.classList.add("fa-xmark")
     }
     else{
-        icon.classList.remove("fa-xmark")
-        icon.classList.add("fa-plus")
+        play.classList.remove("fa-xmark")
+        play.classList.add("fa-plus")
     }
 }
-icon.addEventListener('click',iconChange)
+play.addEventListener('click',iconChange)
+
